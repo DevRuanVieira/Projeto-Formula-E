@@ -184,7 +184,7 @@ nav{
 }
 .menu-hamburger span{
     width: 100%;
-    height: 0.2rem; /* Diminuir a altura das linhas */
+    height: 0.2rem; 
     border-radius: 3px;
     background-color: #fffcfc;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -258,7 +258,7 @@ video{
     left: 0;
     width: 100%;
     height: auto;
-    object-fit: cover; /* Garante que o vídeo cubra todo o espaço do header */
+    object-fit: cover; 
     z-index: -1;
 }
 
@@ -302,7 +302,7 @@ video{
         left: 0;
         width: 100%;
         height: 100%;
-        object-fit: cover; /* Garante que o vídeo cubra todo o espaço do header */
+        object-fit: cover;
         z-index: -1;
     }
 
@@ -326,4 +326,107 @@ video{
     
 
 
+}
+
+.Sustentabilidade {
+    margin-top: 700px; 
+}
+
+.Sustentabilidade_texto h1 {
+    display: flex;
+    align-items: center;
+    color: #06604F;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 5vh;
+    position: relative;
+    justify-content: center;
+}
+
+.Sub_texto {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    gap: 1rem; 
+    margin: 20px;
+    font-size: 15px;
+}
+
+.Sub_texto h3 {
+    text-align: center; 
+    font-size: 35px;
+}
+
+.Sub_texto img {
+    width: 100px; 
+}
+
+.Bnt_sus {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.Bnt_sus button {
+    width: 150px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: #06604F;
+    border-color: #06604F;
+}
+
+.Bnt_sus button:hover {
+    background-color: #04533C; 
+}
+
+.Video_sus {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 50px;
+    width: 100%; 
+    position: relative; 
+}
+
+.Video_sus iframe {
+    width: 100%;
+    max-width: 1280px; 
+    aspect-ratio: 16/9; 
+    margin: auto; 
+    z-index: 0;
+    position: relative; 
+}
+
+
+@media (min-width: 768px) {
+    .Sub_texto {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .Sub_texto img {
+        width: 150px;
+    }
+
+    .Bnt_sus button {
+        width: 200px;
+        height: 35px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .Sub_texto {
+        gap: 4rem;
+    }
+
+    .Sub_texto img {
+        width: 200px;
+    }
+
+    .Bnt_sus button {
+        width: 250px;
+        height: 50px;
+    }
 }
