@@ -1,0 +1,119 @@
+/*estilo img motor*/
+section.motor{
+    padding: 40px 4%;
+    background-color: #202020;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 300;
+    font-style:normal;
+    height: 100vh;
+}
+
+.flex{
+    display: flex;
+}
+
+img{
+    max-width:700px;
+    max-height:500px;
+    width: auto;
+    margin-top: 20%;
+}
+
+.lado-esquerdo h1{
+    color: #fff;
+    font-size: 38px;
+}
+
+.lado-esquerdo h1 span{
+    color: #0BCA9C;
+}
+
+.lado-esquerdo p{
+    color: #5e5e5e;
+    font-size: 25px;
+}
+
+.btn-motor button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 520;
+    background-color: #0BCA9C;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/*responsividade*/
+
+@media (max-width: 450px){
+    .lado-esquerdo h1{
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .lado-esquerdo p{
+        color: #5e5e5e;
+        font-size: 15px;
+        text-align: center;
+        padding: 2%;
+    }
+    
+    .btn-motor button{
+        padding: 5px 20px;
+        font-size: 14px;
+        margin: 110px;
+        margin-top: 1%;
+    }
+    img{
+      display: none;
+    }
+}
+
+/* Responsividade */
+@media (max-width: 750px) {
+    .lado-esquerdo {
+        text-align: center; /* Centralizar conteúdo */
+    }
+
+    .lado-esquerdo h1 {
+        font-size: 28px;
+    }
+
+    .lado-esquerdo p {
+        font-size: 20px;
+        padding: 2% 5%;
+    }
+
+    .btn-motor button {
+        padding: 8px 30px;
+        font-size: 16px;
+        margin: 10px auto; /* Centralizar botão */
+    }
+
+    img {
+        display: none;
+    }
+}
+
+/* Para telas menores que 450px */
+@media (max-width: 450px) {
+    .lado-esquerdo h1 {
+        font-size: 20px;
+    }
+
+    .lado-esquerdo p {
+        font-size: 15px;
+        padding: 2% 5%;
+    }
+
+    .btn-motor button {
+        padding: 5px 20px;
+        font-size: 14px;
+        margin: 10px auto; /* Centralizar botão */
+    }
+
+    img {
+        display: none; /* Esconder imagem em telas pequenas */
+    }
+}
